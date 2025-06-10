@@ -1,0 +1,10 @@
+#copy-content-btn{
+    width : 100px;
+    padding : 7px;
+    border-radius: 10px;
+    margin-left: 580px;
+}
+.text-area-content{
+    display: flex;
+    flex-direction: column;
+}

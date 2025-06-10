@@ -1,0 +1,168 @@
+* {
+    overflow: hidden;
+}
+
+/* Base styles (for desktop and larger screens) */
+#input-title-field {
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: rgba(28, 27, 27, 0.87);
+    color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(80, 79, 79), -3px -3px 10px rgb(80, 79, 79);
+}
+#input-title-field:hover {
+    border: 1px solid rgb(122, 66, 178);
+}
+
+#btn {
+    width: 150px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgb(32, 31, 31);
+    color: white;
+    border: 1px solid black;
+    box-shadow: 3px 3px 10px rgb(80, 79, 79), -3px -3px 10px rgb(80, 79, 79);
+}
+#btn:hover {
+    border: 1px solid rgb(122, 66, 178);
+}
+
+.home-container {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#textArea-field {
+    width: 700px;
+    height: 600px;
+    background-color: rgba(16, 15, 15, 0.87);
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 3px 3px 10px rgb(80, 79, 79), -3px -3px 10px rgb(80, 79, 79);
+}
+
+.text-Area {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  .home-container {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #input-title-field {
+    width: 50%;
+    font-size: 16px;
+  }
+
+  #btn {
+    width: 30%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  #textArea-field {
+    width: 600px;
+    height: 800px;
+    font-size: 25px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+    .home-container {
+        width : 400px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #input-title-field {
+        width: 350px;
+        font-size: 16px;
+    }
+
+    #btn {
+        width: 150px;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #textArea-field {
+        width: 350px;
+        height: 500px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width : 350px) and (min-width : 344px){
+    .home-container {
+        width : 400px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #input-title-field {
+        width: 330px;
+        font-size: 16px;
+    }
+
+    #btn {
+        width: 150px;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #textArea-field {
+        width: 330px;
+        height: 500px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width : 540px) and (max-width : 545px){
+    .home-container {
+        width : 400px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #input-title-field {
+        width: 330px;
+        font-size: 16px;
+    }
+
+    #btn {
+        width: 150px;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #textArea-field {
+        width: 400px;
+        height: 500px;
+        font-size: 14px;
+    }
+}

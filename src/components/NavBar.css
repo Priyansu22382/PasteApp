@@ -1,0 +1,27 @@
+.navBar-container{
+    display: flex;
+    flex-direction: row;
+    gap : 20px;
+    justify-content: center;
+    margin-top: 20px;
+    width : 100vw;
+    font-size : 18px;
+    margin : auto;
+    /* background-color: rgba(0, 0, 128, 0.799); */
+}
+#homeLink{
+    margin-top: 20px;
+    color : rgb(53, 123, 235);
+    text-decoration: none;
+}
+#pastesLink{
+    margin-top: 20px;
+    color : white;
+    text-decoration: none;
+}
+#homeLink:hover{
+    color : rgb(122, 29, 244);
+}
+#pastesLink:hover{
+    color : rgb(122, 29, 244);
+}
