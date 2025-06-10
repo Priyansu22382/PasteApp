@@ -4,7 +4,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Home from './components/Home'
 import Pastes from './components/Pastes'
 import ViewPastes from './components/ViewPastes'
-import NavBar from './components/Navbar'
+import NavBar from './components/NavBar'
 const router = createBrowserRouter(
   [
     {
